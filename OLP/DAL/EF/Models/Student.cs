@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,18 @@ namespace DAL.EF.Models
         public string Email { get; set; }
         [Required]
         public DateTime DOB { get; set; }
+        [StringLength(15)]
+        public string Username { get; set; }
+        [Required]
+        [StringLength(20)]
+        public string Password { get; set; }
+        [Required]
+        [DefaultValue(0)]
+        public int NumOfActvCrs { get; set; }
+        [Required]
+        [StringLength(20)]
+        public string UserType { get; set; }
+
         public virtual ICollection<MyCourse> MyCourses { get; set; }
         public Student() 
         {

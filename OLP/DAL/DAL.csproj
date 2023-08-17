@@ -80,6 +80,14 @@
     <Compile Include="Migrations\202308131827387_updatemyassignment.designer.cs">
       <DependentUpon>202308131827387_updatemyassignment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308152123385_updateStudenttable.cs" />
+    <Compile Include="Migrations\202308152123385_updateStudenttable.designer.cs">
+      <DependentUpon>202308152123385_updateStudenttable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308160444295_uupdatestudenyyable.cs" />
+    <Compile Include="Migrations\202308160444295_uupdatestudenyyable.designer.cs">
+      <DependentUpon>202308160444295_uupdatestudenyyable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\MyAssignmentRepos.cs" />
@@ -106,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202308131827387_updatemyassignment.resx">
       <DependentUpon>202308131827387_updatemyassignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308152123385_updateStudenttable.resx">
+      <DependentUpon>202308152123385_updateStudenttable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308160444295_uupdatestudenyyable.resx">
+      <DependentUpon>202308160444295_uupdatestudenyyable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

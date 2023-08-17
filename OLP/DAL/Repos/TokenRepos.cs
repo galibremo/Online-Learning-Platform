@@ -35,7 +35,7 @@ namespace DAL.Repos
 
         public List<Token> viewAll()
         {
-            throw new NotImplementedException();
+            return db.Tokens.ToList();
         }
     }
 }

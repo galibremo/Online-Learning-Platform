@@ -17,8 +17,23 @@ namespace BLL.Services
             var config = new MapperConfiguration(cfg => { cfg.CreateMap<StudentDTO, Student>(); });
             var mapper = new Mapper(config);
             var converted = mapper.Map<Student>(n);
-            var res = DAF.AccessStudent().create(converted);
-            return res;
+            DAF.AccessStudent().create(converted);
+            var usr = new User();
+            usr.Username = n.Username;
+            usr.Password = n.Password;
+            usr.UserType = "Student";
+            return DAF.AccessUser().create(usr);
+        }
+        public static StudentMyCourseDTO GetWithStnt(int id)
+        {
+            var data = DAF.AccessStudent().view(id);
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Student, StudentMyCourseDTO>();
+                cfg.CreateMap<MyCourse, MyCourseDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrt = mapper.Map<StudentMyCourseDTO>(data);
+            return cnvrt;
         }
         public static List<StudentDTO> Get()
         {

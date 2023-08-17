@@ -22,7 +22,8 @@ namespace DAL.Repos
 
         public bool create(User obj)
         {
-            throw new NotImplementedException();
+            db.Users.Add(obj);
+            return db.SaveChanges() > 0;
         }
 
         public bool delete(string id)

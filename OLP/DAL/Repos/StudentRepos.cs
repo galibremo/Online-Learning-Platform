@@ -39,6 +39,10 @@ namespace DAL.Repos
             exp.Student_Name = obj.Student_Name;
             exp.Email = obj.Email;
             exp.DOB = obj.DOB;
+            exp.Username = obj.Username;
+            exp.Password = obj.Password;
+            exp.UserType = obj.UserType;
+            exp.NumOfActvCrs = obj.NumOfActvCrs;
             return db.SaveChanges() > 0;
         }
     }

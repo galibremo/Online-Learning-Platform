@@ -31,6 +31,20 @@ namespace OLP.Controllers
 
         }
         [HttpGet]
+        [Route("api/MyCourse/{id}/Student")]
+        public HttpResponseMessage GetByCat(int id)
+        {
+            try
+            {
+                var data = MyCourseServices.GetWithStnt(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+        [HttpGet]
         [Route("api/MyCourse/{id}")]
         public HttpResponseMessage GetById(int id)
         {

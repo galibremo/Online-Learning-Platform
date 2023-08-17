@@ -14,10 +14,6 @@ namespace BLL.Services
     {
         public static bool Create(MySubmissionDTO s)
         {
-            var getuser = (from i in DAF.AccessMySubmission().viewAll()
-                           where i.StuId == s.StuId &&
-                           i.AssId == s.AssId
-                           select i).SingleOrDefault();
             var ass = DAF.AccessMyAssignment().view(s.AssId);
             ass.Status = "Submitted";
             DAF.AccessMyAssignment().update(ass);
