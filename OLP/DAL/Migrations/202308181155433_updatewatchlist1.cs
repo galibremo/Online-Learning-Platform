@@ -3,16 +3,16 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class uupdatestudenyyable : DbMigration
+    public partial class updatewatchlist1 : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.Students", "NumOfActvCrs", c => c.Int(nullable: false));
+            DropColumn("dbo.WatchLists", "CourseStatus");
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Students", "NumOfActvCrs");
+            AddColumn("dbo.WatchLists", "CourseStatus", c => c.String(nullable: false, maxLength: 20));
         }
     }
 }

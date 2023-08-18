@@ -61,35 +61,25 @@
     <Compile Include="EF\Models\Teacher.cs" />
     <Compile Include="EF\Models\Token.cs" />
     <Compile Include="EF\Models\User.cs" />
+    <Compile Include="EF\Models\WatchList.cs" />
     <Compile Include="EF\OLPContext.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202308112133015_inittables.cs" />
-    <Compile Include="Migrations\202308112133015_inittables.designer.cs">
-      <DependentUpon>202308112133015_inittables.cs</DependentUpon>
+    <Compile Include="Migrations\202308180832323_initDB.cs" />
+    <Compile Include="Migrations\202308180832323_initDB.designer.cs">
+      <DependentUpon>202308180832323_initDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202308130655461_init.cs" />
-    <Compile Include="Migrations\202308130655461_init.designer.cs">
-      <DependentUpon>202308130655461_init.cs</DependentUpon>
+    <Compile Include="Migrations\202308180912022_updateWatchlist.cs" />
+    <Compile Include="Migrations\202308180912022_updateWatchlist.designer.cs">
+      <DependentUpon>202308180912022_updateWatchlist.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202308130957451_inittableUserAndToken.cs" />
-    <Compile Include="Migrations\202308130957451_inittableUserAndToken.designer.cs">
-      <DependentUpon>202308130957451_inittableUserAndToken.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202308131827387_updatemyassignment.cs" />
-    <Compile Include="Migrations\202308131827387_updatemyassignment.designer.cs">
-      <DependentUpon>202308131827387_updatemyassignment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202308152123385_updateStudenttable.cs" />
-    <Compile Include="Migrations\202308152123385_updateStudenttable.designer.cs">
-      <DependentUpon>202308152123385_updateStudenttable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202308160444295_uupdatestudenyyable.cs" />
-    <Compile Include="Migrations\202308160444295_uupdatestudenyyable.designer.cs">
-      <DependentUpon>202308160444295_uupdatestudenyyable.cs</DependentUpon>
+    <Compile Include="Migrations\202308181155433_updatewatchlist1.cs" />
+    <Compile Include="Migrations\202308181155433_updatewatchlist1.designer.cs">
+      <DependentUpon>202308181155433_updatewatchlist1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\ContentsRepos.cs" />
     <Compile Include="Repos\MyAssignmentRepos.cs" />
     <Compile Include="Repos\MyCourseRepos.cs" />
     <Compile Include="Repos\MySubmissionRepos.cs" />
@@ -97,29 +87,21 @@
     <Compile Include="Repos\StudentRepos.cs" />
     <Compile Include="Repos\TokenRepos.cs" />
     <Compile Include="Repos\UserRepos.cs" />
+    <Compile Include="Repos\WatchListRepos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202308112133015_inittables.resx">
-      <DependentUpon>202308112133015_inittables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308180832323_initDB.resx">
+      <DependentUpon>202308180832323_initDB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308130655461_init.resx">
-      <DependentUpon>202308130655461_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308180912022_updateWatchlist.resx">
+      <DependentUpon>202308180912022_updateWatchlist.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308130957451_inittableUserAndToken.resx">
-      <DependentUpon>202308130957451_inittableUserAndToken.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308131827387_updatemyassignment.resx">
-      <DependentUpon>202308131827387_updatemyassignment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308152123385_updateStudenttable.resx">
-      <DependentUpon>202308152123385_updateStudenttable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202308160444295_uupdatestudenyyable.resx">
-      <DependentUpon>202308160444295_uupdatestudenyyable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308181155433_updatewatchlist1.resx">
+      <DependentUpon>202308181155433_updatewatchlist1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

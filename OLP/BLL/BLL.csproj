@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\ContentsDTO.cs" />
     <Compile Include="DTOs\MyAssignmentDTO.cs" />
     <Compile Include="DTOs\MyCourseDTO.cs" />
     <Compile Include="DTOs\MyCourseStudentDTO.cs" />
@@ -52,12 +53,14 @@
     <Compile Include="DTOs\StudentDTO.cs" />
     <Compile Include="DTOs\StudentMyCourseDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
+    <Compile Include="DTOs\WatchListDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthServices.cs" />
     <Compile Include="Services\MyAssignmentServices.cs" />
     <Compile Include="Services\MyCourseServices.cs" />
     <Compile Include="Services\MySubmissionServices.cs" />
     <Compile Include="Services\StudentServices.cs" />
+    <Compile Include="Services\WatchListServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

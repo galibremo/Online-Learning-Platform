@@ -40,6 +40,7 @@ namespace DAL.Repos
             exp.Description = obj.Description;
             exp.EnrDate = obj.EnrDate;
             exp.StuId = obj.StuId;
+            exp.Status = obj.Status;
             return db.SaveChanges() > 0;
         }
     }

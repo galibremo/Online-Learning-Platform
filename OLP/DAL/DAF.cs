@@ -40,5 +40,13 @@ namespace DAL
         {
             return new UserRepos();
         }
+        public static IRepo<WatchList,bool,int> AccessWatchList()
+        {
+            return new WatchListRepos();
+        }
+        public static IRepo<Contents, bool, int> AccessContents()
+        {
+            return new ContentsRepos();
+        }
     }
 }

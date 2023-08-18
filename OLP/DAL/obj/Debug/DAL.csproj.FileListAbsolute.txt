@@ -10,7 +10,6 @@ D:\American International Univertity\semester 12\advance programing with dot net
 D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.dll
 D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\bin\Debug\DAL.dll.config
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\bin\Debug\DAL.dll
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\bin\Debug\DAL.pdb
@@ -28,9 +27,7 @@ D:\American International Univertity\semester 12\advance programing with dot net
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\obj\Debug\DAL.Migrations.init.resources
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\obj\Debug\DAL.Migrations.inittableUserAndToken.resources
 D:\American International Univertity\semester 12\advance programing with dot net\OLP\DAL\obj\Debug\DAL.Migrations.updatemyassignment.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.inittables.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.init.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.inittableUserAndToken.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.updatemyassignment.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.updateStudenttable.resources
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.uupdatestudenyyable.resources
+D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.initDB.resources
+D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.updateWatchlist.resources
+D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\DAL\obj\Debug\DAL.Migrations.updatewatchlist1.resources

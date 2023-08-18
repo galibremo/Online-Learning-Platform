@@ -17,5 +17,12 @@ namespace DAL.EF.Models
         [ForeignKey("courses")]
         public int cid { get; set; }
         public virtual Course courses { get; set; }
+        public virtual ICollection<WatchList> WatchLists { get; set; }
+        public Contents()
+        {
+            WatchLists= new List<WatchList>();  
+        }
+
+
     }
 }

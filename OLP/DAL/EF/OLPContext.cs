@@ -19,5 +19,6 @@ namespace DAL.EF
         public virtual DbSet<Contents> Contents { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Token> Tokens { get; set; }
+        public virtual DbSet<WatchList> WatchLists { get; set; }
     }
 }

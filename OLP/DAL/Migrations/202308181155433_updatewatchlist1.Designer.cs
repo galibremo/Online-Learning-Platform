@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class inittableUserAndToken : IMigrationMetadata
+    public sealed partial class updatewatchlist1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(inittableUserAndToken));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(updatewatchlist1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202308130957451_inittableUserAndToken"; }
+            get { return "202308181155433_updatewatchlist1"; }
         }
         
         string IMigrationMetadata.Source
