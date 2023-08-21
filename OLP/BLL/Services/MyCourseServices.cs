@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.ComponentModel;
 
 namespace BLL.Services
 {
@@ -31,17 +32,54 @@ namespace BLL.Services
             return false;
             
         }
-        public static MyCourseStudentDTO GetWithStnt(int id)
+        public static List<MyCourseDTO> GetTitle(string title)
         {
-            var data = DAF.AccessMyCourse().view(id);
+            var data = (from n in DAF.AccessMyCourse().viewAll()
+                        where n.Title.ToLower().Contains(title.ToLower())
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => { cfg.CreateMap<MyCourse, MyCourseDTO>(); });
+            var mapper = new Mapper(config);
+            var cnvrt = mapper.Map<List<MyCourseDTO>>(data);
+            return cnvrt;
+        }
+       
+        public static List<MyCourseDTO> GetByStatus(string status)
+        {
+            var data = (from n in DAF.AccessMyCourse().viewAll()
+                        where n.Status.ToLower().Contains(status.ToLower())
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => {cfg.CreateMap<MyCourse, MyCourseDTO>();});
+            var mapper = new Mapper(config);
+            var cnvrt = mapper.Map<List<MyCourseDTO>>(data);
+            return cnvrt;
+        }
+        public static List<MyCourseDTO> Get(DateTime date)
+        {
+            var data = (from n in DAF.AccessMyCourse().viewAll()
+                        where n.EnrDate == date
+                        select n).ToList();
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<MyCourse, MyCourseDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrt = mapper.Map<List<MyCourseDTO>>(data);
+            return cnvrt;
+        }
+        public static List<MyCourseStudentDTO> GetWithTitle(string title)
+        {
+            var data = (from n in DAF.AccessMyCourse().viewAll()
+                        where n.Title.ToLower().Contains(title.ToLower())
+                        select n).ToList();
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<MyCourse, MyCourseStudentDTO>();
                 cfg.CreateMap<Student, StudentDTO>();
+                
             });
             var mapper = new Mapper(config);
-            var cnvrt = mapper.Map<MyCourseStudentDTO>(data);
+            var cnvrt = mapper.Map<List<MyCourseStudentDTO>>(data);
             return cnvrt;
         }
+        
         public static List<MyCourseDTO> Get()
         {
             var data = DAF.AccessMyCourse().viewAll();

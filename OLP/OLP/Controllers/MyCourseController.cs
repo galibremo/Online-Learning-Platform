@@ -31,12 +31,57 @@ namespace OLP.Controllers
 
         }
         [HttpGet]
-        [Route("api/MyCourse/{id}/Student")]
-        public HttpResponseMessage GetByCat(int id)
+        [Route("api/MyCourse/Title/{title}")]
+        public HttpResponseMessage GetByTitle(string title)
         {
             try
             {
-                var data = MyCourseServices.GetWithStnt(id);
+                var data = MyCourseServices.GetTitle(title);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
+        }
+        [HttpGet]
+        [Route("api/MyCourse/Status/{status}")]
+        public HttpResponseMessage GetStatus(string status)
+        {
+            try
+            {
+                var data = MyCourseServices.GetByStatus(status);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("api/MyCourse/{title}/Student")]
+        public HttpResponseMessage GetWithTitle(string title)
+        {
+            try
+            {
+                var data = MyCourseServices.GetWithTitle(title);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+        [HttpGet]
+        [Route("api/MyCourse/Date/{date}")]
+        public HttpResponseMessage GetByDate(DateTime date)
+        {
+            try
+            {
+                var data = MyCourseServices.Get(date);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)

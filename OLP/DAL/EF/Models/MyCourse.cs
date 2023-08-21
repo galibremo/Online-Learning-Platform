@@ -26,6 +26,7 @@ namespace DAL.EF.Models
         public string Status { get; set; }
         [ForeignKey("Student")]
         public int StuId { get; set; }
-        public virtual Student Student { get; set; }    
+        public virtual Student Student { get; set; }
+        
     }
 }
