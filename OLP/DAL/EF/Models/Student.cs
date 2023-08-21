@@ -33,11 +33,12 @@ namespace DAL.EF.Models
         public string UserType { get; set; }
 
         public virtual ICollection<MyCourse> MyCourses { get; set; }
-        
+        public virtual ICollection<WatchList> WatchLists { get; set; }
+
         public Student() 
         {
             MyCourses = new List<MyCourse>();
-            
+            WatchLists = new List<WatchList>(); 
         }
     }
 }

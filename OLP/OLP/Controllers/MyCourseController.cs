@@ -60,7 +60,20 @@ namespace OLP.Controllers
             }
 
         }
-
+        [HttpGet]
+        [Route("api/MyCourse/{id}/WatchList")]
+        public HttpResponseMessage GetCrsWL(int id)
+        {
+            try
+            {
+                var data = MyCourseServices.GetCrsWL(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
         [HttpGet]
         [Route("api/MyCourse/{title}/Student")]
         public HttpResponseMessage GetWithTitle(string title)

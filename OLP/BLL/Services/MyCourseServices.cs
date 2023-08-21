@@ -42,7 +42,17 @@ namespace BLL.Services
             var cnvrt = mapper.Map<List<MyCourseDTO>>(data);
             return cnvrt;
         }
-       
+        public static MyCourseWatchListDTO GetCrsWL(int id)
+        {
+            var data = DAF.AccessMyCourse().view(id);
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<MyCourse, MyCourseWatchListDTO>();
+                cfg.CreateMap<WatchList, WatchListDTO>();
+            });
+            var mapper = new Mapper(config);
+            var cnvrt = mapper.Map<MyCourseWatchListDTO>(data);
+            return cnvrt;
+        }
         public static List<MyCourseDTO> GetByStatus(string status)
         {
             var data = (from n in DAF.AccessMyCourse().viewAll()

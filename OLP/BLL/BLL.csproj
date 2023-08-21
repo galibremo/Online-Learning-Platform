@@ -49,6 +49,7 @@
     <Compile Include="DTOs\MyAssignmentDTO.cs" />
     <Compile Include="DTOs\MyCourseDTO.cs" />
     <Compile Include="DTOs\MyCourseStudentDTO.cs" />
+    <Compile Include="DTOs\MyCourseWatchListDTO.cs" />
     <Compile Include="DTOs\MySubmissionDTO.cs" />
     <Compile Include="DTOs\StudentDTO.cs" />
     <Compile Include="DTOs\StudentMyCourseDTO.cs" />
