@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class MyAssignmentRepos : Repo, IRepo<MyAssignment, bool,int>
+    internal class MyAssignmentRepos : Repo, IRepo<MyAssignment, bool, int>
     {
+
         public bool create(MyAssignment obj)
         {
             db.MyAssignments.Add(obj);

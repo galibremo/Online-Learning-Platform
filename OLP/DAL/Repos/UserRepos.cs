@@ -2,13 +2,14 @@
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepos : Repo, IRepo<User, bool, string>, IAuth
+    internal class UserRepos : Repo, IRepo<User, bool, string>, IAuthStudent
     {
         public User Authenticate(string username, string password, string type)
         {

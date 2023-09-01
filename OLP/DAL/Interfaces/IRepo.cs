@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,6 @@ namespace DAL.Interfaces
         Class view(Type id);
         Ret create(Class obj);
         Ret update(Class obj);
-        bool delete(Type id);
+        Ret delete(Type id);
     }
 }

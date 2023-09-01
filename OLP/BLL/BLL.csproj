@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{965581AF-1B27-418C-8655-962D12F06C55}</ProjectGuid>
+    <ProjectGuid>{258997A4-0035-451F-A55A-135237F9E341}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLL</RootNamespace>
@@ -45,7 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\AdminDTO.cs" />
+    <Compile Include="DTOs\AssignmentsDTO.cs" />
     <Compile Include="DTOs\ContentsDTO.cs" />
+    <Compile Include="DTOs\CourseDTO.cs" />
+    <Compile Include="DTOs\EnrollmentsDTO.cs" />
+    <Compile Include="DTOs\FeedbackDTO.cs" />
     <Compile Include="DTOs\MyAssignmentDTO.cs" />
     <Compile Include="DTOs\MyCourseDTO.cs" />
     <Compile Include="DTOs\MyCourseStudentDTO.cs" />
@@ -53,19 +58,34 @@
     <Compile Include="DTOs\MySubmissionDTO.cs" />
     <Compile Include="DTOs\StudentDTO.cs" />
     <Compile Include="DTOs\StudentMyCourseDTO.cs" />
-    <Compile Include="DTOs\TokenDTO.cs" />
+    <Compile Include="DTOs\SubmissionDTO.cs" />
+    <Compile Include="DTOs\TeacherDTO.cs" />
+    <Compile Include="DTOs\TokenAdminDTO.cs" />
+    <Compile Include="DTOs\TokenStudentDTO.cs" />
+    <Compile Include="DTOs\TokenTeacherDTO.cs" />
     <Compile Include="DTOs\WatchListDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\AuthServices.cs" />
+    <Compile Include="Services\AdminAuth.cs" />
+    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\AssignmentService.cs" />
+    <Compile Include="Services\ContentService.cs" />
+    <Compile Include="Services\CourseService.cs" />
+    <Compile Include="Services\EnrollmentsService.cs" />
+    <Compile Include="Services\FeedbackServices.cs" />
     <Compile Include="Services\MyAssignmentServices.cs" />
     <Compile Include="Services\MyCourseServices.cs" />
     <Compile Include="Services\MySubmissionServices.cs" />
+    <Compile Include="Services\StudentAuthServices.cs" />
     <Compile Include="Services\StudentServices.cs" />
+    <Compile Include="Services\TeacherAuth.cs" />
+    <Compile Include="Services\TeacherEnrollmentService.cs" />
+    <Compile Include="Services\TeacherService.cs" />
+    <Compile Include="Services\TeacherSubmissionService.cs" />
     <Compile Include="Services\WatchListServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{d31b6d9d-8418-4f25-bae9-5cf2b102cdb8}</Project>
+      <Project>{54e6fc8c-7988-404c-89e5-4b15ca2d2528}</Project>
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>

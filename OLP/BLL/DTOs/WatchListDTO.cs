@@ -1,5 +1,4 @@
-﻿using DAL.EF.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +16,5 @@ namespace BLL.DTOs
         public int CntId { get; set; }
         public int CrsId { get; set; }
         public int MyCrsId { get; set; }
-
     }
 }

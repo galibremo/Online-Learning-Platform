@@ -7,7 +7,6 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using System.Web.UI.WebControls;
 
 namespace OLP.Controllers
 {
@@ -16,11 +15,11 @@ namespace OLP.Controllers
     {
         [HttpPost]
         [Route("api/login")]
-        public HttpResponseMessage Login(LoginModel login)
+        public HttpResponseMessage Login(StudentLoginModel login)
         {
             try
             {
-                var token = AuthServices.Login(login.Username, login.Password, login.UserType);
+                var token = StudentAuthServices.Login(login.Username, login.Password, login.UserType);
                 if (token != null)
                 {
                     return Request.CreateResponse(HttpStatusCode.OK, token);

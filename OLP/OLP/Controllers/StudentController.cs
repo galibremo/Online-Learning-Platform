@@ -19,7 +19,7 @@ namespace OLP.Controllers
         {
             try
             {
-                var data = StudentServices.Get();
+                var data = StudentServices.Get();   
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)

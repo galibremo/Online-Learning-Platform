@@ -21,7 +21,7 @@ namespace OLP.AuthFilters
             else
             {
                 var token = header.ToString();
-                if (token != null && !AuthServices.IsTokenValid(token))
+                if (token != null && !StudentAuthServices.IsTokenValid(token))
                 {
                     actionContext.Response = actionContext.Request.CreateResponse(System.Net.HttpStatusCode.Unauthorized, new { Msg = "Supplied token in invalid or expired" });
                 }

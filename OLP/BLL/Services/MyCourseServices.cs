@@ -7,8 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net;
-using System.ComponentModel;
 
 namespace BLL.Services
 {
@@ -19,7 +17,7 @@ namespace BLL.Services
             var getActvcrs = (from i in DAF.AccessStudent().viewAll()
                               where i.Student_Id == c.StuId
                               select i).SingleOrDefault();
-            if(getActvcrs.NumOfActvCrs < 3)
+            if (getActvcrs.NumOfActvCrs < 3)
             {
                 var config = new MapperConfiguration(cfg => { cfg.CreateMap<MyCourseDTO, MyCourse>(); });
                 var mapper = new Mapper(config);
@@ -30,7 +28,7 @@ namespace BLL.Services
                 return DAF.AccessStudent().update(std);
             }
             return false;
-            
+
         }
         public static List<MyCourseDTO> GetTitle(string title)
         {
@@ -58,7 +56,7 @@ namespace BLL.Services
             var data = (from n in DAF.AccessMyCourse().viewAll()
                         where n.Status.ToLower().Contains(status.ToLower())
                         select n).ToList();
-            var config = new MapperConfiguration(cfg => {cfg.CreateMap<MyCourse, MyCourseDTO>();});
+            var config = new MapperConfiguration(cfg => { cfg.CreateMap<MyCourse, MyCourseDTO>(); });
             var mapper = new Mapper(config);
             var cnvrt = mapper.Map<List<MyCourseDTO>>(data);
             return cnvrt;
@@ -83,13 +81,13 @@ namespace BLL.Services
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<MyCourse, MyCourseStudentDTO>();
                 cfg.CreateMap<Student, StudentDTO>();
-                
+
             });
             var mapper = new Mapper(config);
             var cnvrt = mapper.Map<List<MyCourseStudentDTO>>(data);
             return cnvrt;
         }
-        
+
         public static List<MyCourseDTO> Get()
         {
             var data = DAF.AccessMyCourse().viewAll();

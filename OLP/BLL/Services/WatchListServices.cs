@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Security.Cryptography;
 
 namespace BLL.Services
 {
@@ -19,7 +18,7 @@ namespace BLL.Services
             var TotalContentsInContents = (from i in DAF.AccessContents().viewAll()
                                            where i.cid == w.CrsId
                                            select i).ToList().Count();
-            
+
             var TotalContentsInList = (from i in DAF.AccessWatchList().viewAll()
                                        where i.CrsId == w.CrsId
                                        select i).ToList().Count();
@@ -31,7 +30,7 @@ namespace BLL.Services
                 ass.Status = "Finished";
                 DAF.AccessMyCourse().update(ass);
             }
-            
+
             var config = new MapperConfiguration(cfg => { cfg.CreateMap<WatchListDTO, WatchList>(); });
             var mapper = new Mapper(config);
             var converted = mapper.Map<WatchList>(w);

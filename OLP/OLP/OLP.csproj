@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BC62AFA7-1F7E-42A5-A84B-B8D96B712793}</ProjectGuid>
+    <ProjectGuid>{08A4CC9C-D6F8-49BF-AAF7-EA7481C6985E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -17,7 +17,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44376</IISExpressSSLPort>
+    <IISExpressSSLPort>44350</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -98,17 +98,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AuthFilters\AdminLogged.cs" />
+    <Compile Include="AuthFilters\IsAdmin.cs" />
     <Compile Include="AuthFilters\Logged.cs" />
+    <Compile Include="AuthFilters\IsTeacher.cs" />
+    <Compile Include="AuthFilters\TeacherLogged.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AdminLoginController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MyAssignmentController.cs" />
     <Compile Include="Controllers\MyCourseController.cs" />
     <Compile Include="Controllers\MySubmissionController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\TeacherController.cs" />
+    <Compile Include="Controllers\TeacherLoginController.cs" />
     <Compile Include="Controllers\WatchListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\AdminLoginModel.cs" />
+    <Compile Include="Models\FeedbackModel.cs" />
+    <Compile Include="Models\StudentLoginModel.cs" />
+    <Compile Include="Models\TeacherLoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -125,7 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
-      <Project>{965581af-1b27-418c-8655-962d12f06c55}</Project>
+      <Project>{258997a4-0035-451f-a55a-135237f9e341}</Project>
       <Name>BLL</Name>
     </ProjectReference>
   </ItemGroup>
@@ -142,9 +153,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1372</DevelopmentServerPort>
+          <DevelopmentServerPort>51370</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44376/</IISUrl>
+          <IISUrl>https://localhost:44350/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

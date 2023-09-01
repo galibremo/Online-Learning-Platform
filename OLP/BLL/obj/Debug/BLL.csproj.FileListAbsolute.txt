@@ -1,28 +1,74 @@
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\BLL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\BLL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\AutoMapper.dll
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\DAL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\EntityFramework.dll
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\DAL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\DAL.dll.config
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\AutoMapper.xml
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\bin\Debug\EntityFramework.xml
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\obj\Debug\BLL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\Online-Learning-Platform\OLP\BLL\obj\Debug\BLL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\BLL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\BLL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\AutoMapper.dll
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\DAL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\EntityFramework.dll
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\DAL.pdb
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\DAL.dll.config
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\AutoMapper.xml
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\bin\Debug\EntityFramework.xml
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\obj\Debug\BLL.dll
-D:\American International Univertity\semester 12\advance programing with dot net\OLP\BLL\obj\Debug\BLL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\BLL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\BLL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\AutoMapper.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\DAL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\EntityFramework.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\DAL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\DAL.dll.config
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\AutoMapper.xml
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\bin\Debug\EntityFramework.xml
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\obj\Debug\BLL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\BLL\obj\Debug\BLL.pdb
+C:\Users\shafi\Downloads\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\shafi\Downloads\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\shafi\Downloads\OLP\BLL\obj\Debug\BLL.dll
+C:\Users\shafi\Downloads\OLP\BLL\obj\Debug\BLL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\BLL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\BLL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\AutoMapper.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\DAL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\EntityFramework.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\DAL.pdb
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\DAL.dll.config
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\AutoMapper.xml
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\bin\Debug\EntityFramework.xml
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\obj\Debug\BLL.dll
+F:\AIUB-American International University Bangladesh\10th semester\Advance .Net\code\OLP\OLP\BLL\obj\Debug\BLL.pdb
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.dll
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.pdb
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.dll
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.dll
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.pdb
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll.config
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.xml
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.xml
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.dll
+C:\Users\galib\Downloads\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.pdb
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.dll
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.pdb
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.dll
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.dll
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.pdb
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll.config
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.xml
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.xml
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.dll
+D:\Microsoft Visual Studio\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.pdb
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.dll
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\BLL.pdb
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.dll
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.dll
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.pdb
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\DAL.dll.config
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\AutoMapper.xml
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\bin\Debug\EntityFramework.xml
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.dll
+C:\Users\atiku\OneDrive\Desktop\github\Online-Learning-Platform-main\Online-Learning-Platform-main\OLP\BLL\obj\Debug\BLL.pdb

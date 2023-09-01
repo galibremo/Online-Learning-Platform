@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script>
+		var app=angular.module("OLP",[]);
+		app.controller("view",function($scope,$http){
+			$http.get("https://localhost:44350/api/get/teacher/3").then(function(rsp){
+				$scope.data=rsp.data;
+
+			},function(err){
+
+			});
+		})
+	</script>
+	<body ng-app="OLP">
+		<div ng-controller="view">
+			<table border="1">
+				<th>Teacher ID</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Password</th>
+				<tr>
+					<td>{{data.id}}</td>
+					<td>{{data.name}}</td>
+					<td>{{data.email}}</td>
+					<td>{{data.password}}</td>
+				</tr>
+
+			</table>
+		</div>
+
+	</body>
+
+</head>
+</html>

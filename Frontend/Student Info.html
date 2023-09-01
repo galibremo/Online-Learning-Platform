@@ -5,7 +5,7 @@
 		var app = angular.module('myApp', []);
 
 		app.controller('myCtrl', function($scope, $http) {
-		  $http.get("https://localhost:44376/api/Student/1")
+		  $http.get("https://localhost:44350/api/Student/1")
 		  .then(function(response) {
 		      $scope.obj = response.data;
 		  },function(err){});

@@ -1,0 +1,42 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script>
+		var app=angular.module("OLP",[]);
+		app.controller("login-control",function($scope,$http){
+			$scope.login=function(){
+				var obj={
+					username:$scope.username,
+					password:$scope.password
+				};
+
+				$http.post("https://localhost:44350/api/admin/login",obj).then(function(rsp){
+				$scope.msg=rsp.data.key;
+				$scope.color="green";
+
+			},function(err){
+				$scope.msg=err.data.msg;
+				$scope.color="red";
+
+			});
+			};
+			
+		});
+	</script>
+	</head>
+	<body ng-app="OLP">
+		<div ng-controller="login-control">
+			
+			<form ng-submit="login()">
+				<input type="text" ng-model="username">
+				<input type="password" ng-model="password">
+				<input type="submit" value="Login">
+
+			</form>
+		    <span style="color:{{color}}">{{msg}}</span>
+		</div>
+
+	</body>
+
+
+</html>
